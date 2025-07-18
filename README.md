@@ -1,6 +1,6 @@
 Step 1:
 Open Terminal,
-<git clone >
+<git clone https://github.com/Dharun4242/Ecommerce-product-listing.git>
 
 Step 2:
 < cd Ecommerce-Product-Listing >
