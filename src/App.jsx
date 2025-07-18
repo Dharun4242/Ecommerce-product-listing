@@ -1,13 +1,15 @@
 
 
-function App() {
-  
+import { CartProvider } from "./context/CartContext";
+import ProductListPage from './pages/ProductListPage';
 
+
+export default function App() {
   return (
-    <div>
-      <h1 className="bg-green-700">Welcome</h1>
-    </div>
-  )
+    
+      <CartProvider>
+        <ProductListPage />
+      </CartProvider>
+   
+  );
 }
-
-export default App
